@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI | Sergio Gasquez</title>
+    <link>https://sergiogasquez.github.io/tag/ai/</link>
+      <atom:link href="https://sergiogasquez.github.io/tag/ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sergiogasquez.github.io/images/icon_hu9a008880073e345ba742f82ec19c27ac_354710_512x512_fill_lanczos_center_2.png</url>
+      <title>AI</title>
+      <link>https://sergiogasquez.github.io/tag/ai/</link>
+    </image>
+    
+    <item>
+      <title>Survey on preprocessing techniques for Heterogeneous Face recognition with VGG-Face</title>
+      <link>https://sergiogasquez.github.io/project/survey-on-preproccesing-techniques-of-heterogeneous-face-recognition-with-vgg-face/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://sergiogasquez.github.io/project/survey-on-preproccesing-techniques-of-heterogeneous-face-recognition-with-vgg-face/</guid>
+      <description>&lt;p&gt;Matching faces from images of different spectres is stillnowadays a challenging task. In this seminar we present a survey on how well preprocessing techniques perform in Near Infrared (NIR) and visible- light (VIS) face matching.The following preprocessing techniques are going to be de-scripted and evaluated using the pretrained model VGG-Face.Local Binary Patterns (LBP), Difference of Gaussian(DoG), Laplacian of Gaussian (LoG), Histogram Equal-ization (HE), Adaptive Single Scale Retinex (ASSR), Ho-momorphic Filtering (HOMO), Isotropic smoothing (IS),Single Scale Self Quotient Image (SSQ), Single Scale We-berfaces Normalization (WEB). Experimentation was per- formed using CASIA NIR-VIS 2.0 Face Data base. Resultsindicate that Histogram Equalization was the best prepro-cessing technique of the nine in various aspects.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
