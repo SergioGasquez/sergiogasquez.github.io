@@ -1,50 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Sergio Gasquez</title>
+    <title>Categories | Sergio Gasquez</title>
     <link>https://sergiogasquez.github.io/categories/</link>
-    <description>Recent content in Categories on Sergio Gasquez</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="https://sergiogasquez.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Development</title>
-      <link>https://sergiogasquez.github.io/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://sergiogasquez.github.io/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://sergiogasquez.github.io/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://sergiogasquez.github.io/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>https://sergiogasquez.github.io/categories/project/</link>
-      <pubDate>Thu, 30 Nov 2017 14:04:19 +1300</pubDate>
-      
-      <guid>https://sergiogasquez.github.io/categories/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://sergiogasquez.github.io/categories/projects/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
-      
-      <guid>https://sergiogasquez.github.io/categories/projects/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://sergiogasquez.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sergiogasquez.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://sergiogasquez.github.io/categories/</link>
+    </image>
     
   </channel>
 </rss>
