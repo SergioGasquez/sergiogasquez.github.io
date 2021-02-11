@@ -31,5 +31,21 @@
 </description>
     </item>
     
+    <item>
+      <title>Homodyne AM receiver</title>
+      <link>https://sergiogasquez.github.io/project/am-receiver/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://sergiogasquez.github.io/project/am-receiver/</guid>
+      <description>&lt;p&gt;Desing and assemblage of an homodyne receiver syntonizing a commercial broadcasting station in A.M. The radio was made of differents stages:&lt;/p&gt;
+&lt;p&gt;Audio stage
+Antenna
+Syntonized Amplifier
+Colpitts Oscillator
+AM demodulator and modulator
+Aditionall amplifier stage
+Power and regulator&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
