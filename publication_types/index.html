@@ -59,7 +59,7 @@
   
   
   
-    <meta name="theme-color" content="#1565c0" />
+    <meta name="theme-color" content="#3f51b5" />
   
 
   
@@ -258,13 +258,59 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.dd90b8698d7ba5e114b9de5647a585e5.css" />
+  <link rel="stylesheet" href="/css/wowchemy.ce3e4f6491f3d0c7dcbb49f88b45f794.css" />
 
   
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189541806-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-189541806-2', {});
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-568BBZ2');
+</script>
+
 
   
 
@@ -577,10 +623,6 @@
       
 
       
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
       
 
       
